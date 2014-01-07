@@ -8,6 +8,9 @@ class Basic_003_variablesAnnounce {
 		boolean b;
 		b = false;
 		//宣告float單精準度浮點數f, 並給予初值
+		float f;
+		f = 1.23f;//這邊要加上f 才能指定為float, 不然會被視為double, 會出現警告
+		//宣告double雙精準度浮點數d, 並給予初值
 		double d;
 		d = 1.23;
 		//宣告char字元 c, 並給予初值
@@ -16,6 +19,7 @@ class Basic_003_variablesAnnounce {
 		//列出變數的值
 		System.out.println("integer i="+i);
 		System.out.println("boolean b="+b);
+		System.out.println("float f="+f);
 		System.out.println("double d="+d);
 		System.out.println("char c="+c);
 		System.out.println("=====我是分隔線=====");
@@ -31,6 +35,10 @@ class Basic_003_variablesAnnounce {
 		System.out.println("=====我是分隔線=====");
 		//Boolean 並沒有 MAX_VALUE
 		System.out.println("Boolean Type="+Boolean.TYPE);
+		System.out.println("=====我是分隔線=====");
+		//Float 的相關資訊
+		System.out.println("Float Max="+Float.MAX_VALUE);
+		System.out.println("Float Min="+Float.MIN_VALUE);
 		System.out.println("=====我是分隔線=====");
 		//Double 的相關資訊
 		System.out.println("Double Max="+Double.MAX_VALUE);
